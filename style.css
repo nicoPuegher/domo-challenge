@@ -1,0 +1,85 @@
+:root {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-toggler {
+	width: 60px;
+	height: 60px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border-radius: 50%;
+	border-color: black;
+	color: black;
+}
+
+.circle {
+	font-size: 20px;
+	font-weight: bold;
+	width: 225px;
+	height: 225px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	color: white;
+}
+
+.row {
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	margin-top: 6rem;
+}
+
+.section-title {
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.icon-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.icon-div i {
+	font-size: 2rem;
+	margin-right: 1rem;
+}
+
+.icon-div .brand-name {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+@media (max-width: 576px) {
+	.icon-div {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.icon-div i {
+		margin-right: 0;
+		margin-bottom: 0.5rem;
+	}
+}
+
+footer {
+	margin-top: 3rem;
+	text-align: center;
+}
